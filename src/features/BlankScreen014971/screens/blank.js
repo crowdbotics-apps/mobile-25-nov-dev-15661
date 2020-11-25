@@ -41,6 +41,7 @@ export default class Blank extends React.Component {
       <TextInput
         placeholder="Sample text input placeholder"
         multiline={true}
+        style={styles.TextInput_7}
         value={this.state.TextInput_7}
         onChangeText={nextValue => this.setState({ TextInput_7: nextValue })}
       />
@@ -58,6 +59,14 @@ export default class Blank extends React.Component {
       <Icon name="star" />
       <Icon name="star" />
       <Icon name="star" />
+      <Icon name="star" />
+      <Icon name="star" />
+      <Icon name="star" />
+      <Icon name="star" />
+      <Icon name="star" />
+      <Icon name="star" />
+      <Icon name="star" />
+      <Icon name="star" />
     </View>
   )
 }
@@ -67,6 +76,7 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Icon_2: {},
   Icon_3: {},
@@ -82,5 +92,29 @@ const styles = StyleSheet.create({
   Icon_13: {},
   Icon_14: {},
   Icon_15: {},
-  Icon_16: {}
+  Icon_16: {},
+  View_1: {},
+  Icon_2: {},
+  Icon_3: {},
+  Icon_4: {},
+  Text_5: {},
+  DateTimePicker_6: {},
+  TextInput_7: { height: 100 },
+  Slider_8: {},
+  Switch_9: { alignSelf: "flex-start" },
+  Image_10: {},
+  Icon_11: {},
+  Icon_12: {},
+  Icon_13: {},
+  Icon_14: {},
+  Icon_15: {},
+  Icon_16: {},
+  Icon_17: {},
+  Icon_18: {},
+  Icon_19: {},
+  Icon_20: {},
+  Icon_21: {},
+  Icon_22: {},
+  Icon_23: {},
+  Icon_24: {}
 })
