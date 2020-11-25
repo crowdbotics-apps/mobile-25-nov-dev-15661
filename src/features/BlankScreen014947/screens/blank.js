@@ -52,6 +52,7 @@ export default class Blank extends React.Component {
         onValueChange={nextChecked => this.setState({ Switch_9: nextChecked })}
       />
       <Image source={{ uri: "https://via.placeholder.com/150" }} />
+      <Icon name="star" />
     </View>
   )
 }
@@ -100,5 +101,16 @@ const styles = StyleSheet.create({
   TextInput_7: {},
   Slider_8: {},
   Switch_9: { alignSelf: "flex-start" },
-  Image_10: {}
+  Image_10: {},
+  View_1: {},
+  Icon_2: {},
+  Icon_3: {},
+  Icon_4: {},
+  Text_5: {},
+  DateTimePicker_6: {},
+  TextInput_7: {},
+  Slider_8: {},
+  Switch_9: { alignSelf: "flex-start" },
+  Image_10: {},
+  Icon_11: {}
 })
