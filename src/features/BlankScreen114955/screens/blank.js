@@ -27,14 +27,14 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Icon name="address-card" />
-      <Icon name="address-card" />
       <CheckBox
         title="Checkbox"
         containerStyle={styles.CheckBox_4}
         checked={this.state.CheckBox_4}
         onPress={nextChecked => this.setState({ CheckBox_4: nextChecked })}
       />
+      <Icon name="address-card" />
+      <Icon name="address-card" />
     </View>
   )
 }
@@ -63,5 +63,15 @@ const styles = StyleSheet.create({
     borderRightWidth: 3,
     borderTopWidth: 3,
     borderBottomWidth: 3
-  }
+  },
+  View_1: {},
+  CheckBox_4: {
+    borderWidth: 3,
+    borderLeftWidth: 3,
+    borderRightWidth: 3,
+    borderTopWidth: 3,
+    borderBottomWidth: 3
+  },
+  Icon_2: {},
+  Icon_3: {}
 })
