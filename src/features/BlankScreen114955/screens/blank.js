@@ -28,6 +28,7 @@ export default class Blank extends React.Component {
   render = () => (
     <View>
       <Icon name="address-card" />
+      <Icon name="star" />
     </View>
   )
 }
@@ -43,5 +44,8 @@ const styles = StyleSheet.create({
   View_1: {},
   Icon_2: {},
   View_1: {},
-  Icon_2: {}
+  Icon_2: {},
+  View_1: {},
+  Icon_2: {},
+  Icon_3: {}
 })
