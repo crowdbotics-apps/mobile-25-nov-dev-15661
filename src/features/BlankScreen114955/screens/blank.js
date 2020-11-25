@@ -41,5 +41,7 @@ const styles = StyleSheet.create({
   View_1: {},
   Icon_2: {},
   View_1: {},
+  Icon_2: {},
+  View_1: {},
   Icon_2: {}
 })
